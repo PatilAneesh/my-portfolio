@@ -1,0 +1,18 @@
+.smiley svg {
+  animation: animation 2s infinite;
+}
+
+@keyframes animation {
+  0% {
+    fill: #050505;
+  }
+  33% {
+    fill: #bdbbbd;
+  }
+  66% {
+    fill: #141414;
+  }
+  100% {
+    fill: #bbbcbd;
+  }
+}

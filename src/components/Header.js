@@ -3,8 +3,7 @@ import './Header.css';
 const Header = () => {
   return (
     <>
-      <div className="header d-flex justify-content-between p-2">
-        <div>Aneesh Patil</div>
+      <div className="header d-flex justify-content-center p-2">
         <ul className="list d-flex">
           <li>
             <a href="#">Home</a>
