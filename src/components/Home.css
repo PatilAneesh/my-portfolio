@@ -16,3 +16,7 @@
     fill: #bbbcbd;
   }
 }
+
+.text i {
+  animation: anima;
+}
