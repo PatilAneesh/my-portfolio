@@ -1,0 +1,9 @@
+.list {
+  list-style: none;
+  margin: 0px 2px 0px 10px;
+}
+.list li a {
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
+import Header from './components/Header.js';
 
 export default function App() {
   return (
-    <div>
-      <h1>dfgfsgfsg</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
