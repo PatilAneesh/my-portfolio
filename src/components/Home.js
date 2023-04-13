@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 const Home = () => {
+  const [state, setState] = useState(0);
   var store = [
     'Frontend Developer',
     'HTML',
@@ -67,7 +68,11 @@ const Home = () => {
       <div className="icons d-flex justify-content-center">
         <a href="#" className="fa fa-facebook"></a>
         <a href="#" className="fa fa-twitter"></a>
-        <a href="#" className="fa fa-linkedin"></a>
+        <a
+          href="https://www.linkedin.com/in/aneesh-patil-65b54a183/"
+          target="_blank"
+          className="fa fa-linkedin"
+        ></a>
         <a href="#" className="fa fa-instagram"></a>
       </div>
     </>
