@@ -7,6 +7,30 @@ const Projects = () => {
       <div className="projects">
         <div class="card" style={{ width: '18rem' }}>
           <div class="card-body">
+            <h5 class="card-title">E-commerce</h5>
+            <h6 class="card-subtitle mb-2 text-muted">React</h6>
+            <img
+              className="img_site"
+              src="https://i.ibb.co/RPYzkSF/e-commerce.png"
+            />
+            <a
+              href="https://react-eb2zqb.stackblitz.io/"
+              target="_blank"
+              class="card-link"
+            >
+              Deployed link
+            </a>
+            <a
+              href="https://github.com/PatilAneesh/E-commerce"
+              target="_blank"
+              class="card-link"
+            >
+              Project link
+            </a>
+          </div>
+        </div>
+        <div class="card" style={{ width: '18rem' }}>
+          <div class="card-body">
             <h5 class="card-title">loopstudios</h5>
             <h6 class="card-subtitle mb-2 text-muted">Landing page</h6>
             <img
@@ -36,30 +60,6 @@ const Projects = () => {
             <img className="img_site" src="" />
             <a
               href="https://github.com/PatilAneesh/facebook-clone"
-              target="_blank"
-              class="card-link"
-            >
-              Project link
-            </a>
-          </div>
-        </div>
-        <div class="card" style={{ width: '18rem' }}>
-          <div class="card-body">
-            <h5 class="card-title">E-commerce</h5>
-            <h6 class="card-subtitle mb-2 text-muted">React</h6>
-            <img
-              className="img_site"
-              src="https://i.ibb.co/RPYzkSF/e-commerce.png"
-            />
-            <a
-              href="https://react-eb2zqb.stackblitz.io/"
-              target="_blank"
-              class="card-link"
-            >
-              Deployed link
-            </a>
-            <a
-              href="https://github.com/PatilAneesh/E-commerce"
               target="_blank"
               class="card-link"
             >
