@@ -8,16 +8,24 @@ const Header = () => {
       <div className="header d-flex justify-content-center p-2">
         <ul className="list d-flex">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">
+              <button>Home</button>
+            </Link>
           </li>
           <li>
-            <Link to="/skills">Skills</Link>
+            <Link to="/skills">
+              <button>Skills</button>
+            </Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects">
+              <button>Projects</button>
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">
+              <button>Contact</button>
+            </Link>
           </li>
         </ul>
       </div>
