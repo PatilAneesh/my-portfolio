@@ -1,6 +1,19 @@
 import React from 'react';
 import './Home.css';
 const Home = () => {
+  var store = [
+    'Frontend Developer',
+    'HTML',
+    'CSS',
+    'javaScript',
+    'React js',
+    'Node js',
+    'Express js',
+    'mongoDB',
+  ];
+  // let index = 0
+  //  setInterval(()=>{
+  //   },3000)
   return (
     <>
       <div className="smiley d-flex justify-content-center pt-5">
@@ -35,7 +48,7 @@ const Home = () => {
               d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z"
             />
           </svg>
-          <i id="txt">Frontend Developer</i>
+          <i id="txt">{}</i>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -52,10 +65,10 @@ const Home = () => {
         </p>
       </div>
       <div className="icons d-flex justify-content-center">
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-twitter"></a>  
-      <a href="#" class="fa fa-linkedin"></a>  
-      <a href="#" class="fa fa-instagram"></a>  
+        <a href="#" className="fa fa-facebook"></a>
+        <a href="#" className="fa fa-twitter"></a>
+        <a href="#" className="fa fa-linkedin"></a>
+        <a href="#" className="fa fa-instagram"></a>
       </div>
     </>
   );

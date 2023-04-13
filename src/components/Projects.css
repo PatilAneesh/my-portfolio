@@ -1,0 +1,13 @@
+.img_site {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+}
+.projects {
+  display: flex;
+  margin: auto;
+  width: 70%;
+}
+.card {
+  margin: 10px;
+}
