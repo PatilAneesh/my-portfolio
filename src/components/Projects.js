@@ -57,7 +57,17 @@ const Projects = () => {
           <div class="card-body">
             <h5 class="card-title">Facebook</h5>
             <h6 class="card-subtitle mb-2 text-muted">Clone</h6>
-            <img className="img_site" src="" />
+            <img
+              className="img_site"
+              src="https://i.ibb.co/Gxxg0wC/facebook-clone.png"
+            />
+            <a
+              href="https://react-puqpct.stackblitz.io/"
+              target="_blank"
+              class="card-link"
+            >
+              Deployed link
+            </a>
             <a
               href="https://github.com/PatilAneesh/facebook-clone"
               target="_blank"
