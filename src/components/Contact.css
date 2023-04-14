@@ -7,3 +7,6 @@
   color: #000 !important;
   border: 3px solid black !important;
 }
+.cards a:hover {
+  color: lightseagreen;
+}

@@ -5,7 +5,7 @@ const Skills = () => {
     <>
       <div className="skills">
         <h1>SKILLS</h1>
-        <div className="box d-flex justify-content-center">
+        <div className="card d-flex">
           <div className="html">HTML 5</div>
           <div className="css">Css 3</div>
           <div className="javascript">javaScript</div>

@@ -1,5 +1,5 @@
 .img_site {
-  width: 250px;
+  width: 230px;
   height: 200px;
   border-radius: 5px;
 }
@@ -10,4 +10,10 @@
 }
 .card {
   margin: 10px;
+}
+.card-body a {
+  color: #fff;
+}
+.card-body a:hover {
+  color: lightseagreen;
 }
